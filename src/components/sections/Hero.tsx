@@ -1,6 +1,6 @@
 
 import React, { useEffect, useRef } from 'react';
-import Badge from '../ui/badge';
+import { Badge } from '../ui/badge';
 
 const Hero: React.FC = () => {
   const heroRef = useRef<HTMLDivElement>(null);

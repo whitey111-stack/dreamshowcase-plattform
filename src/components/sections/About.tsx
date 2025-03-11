@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Section from '../ui/Section';
-import Card from '../ui/card';
+import { Card } from '../ui/card';
 import { BookOpen, BriefcaseBusiness, Code, Shield } from 'lucide-react';
 
 const About: React.FC = () => {

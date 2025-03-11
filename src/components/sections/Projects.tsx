@@ -1,7 +1,8 @@
+
 import React, { useState } from 'react';
 import Section from '../ui/Section';
-import Card from '../ui/card';
-import Badge from '../ui/badge';
+import { Card } from '../ui/card';
+import { Badge } from '../ui/badge';
 import { ExternalLink, Github, Layers } from 'lucide-react';
 
 interface Project {
@@ -110,7 +111,6 @@ const ProjectsSection: React.FC = () => {
             <Card 
               key={project.id} 
               className="overflow-hidden flex flex-col h-full animate-fade-in" 
-              interactive
             >
               <div className="h-48 w-full overflow-hidden rounded-t-lg">
                 <img 

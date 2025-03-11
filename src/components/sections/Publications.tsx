@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
 import Section from '../ui/Section';
-import Card from '../ui/Card';
-import Badge from '../ui/Badge';
+import { Card } from '../ui/card';
+import { Badge } from '../ui/badge';
 import { Calendar, ExternalLink, FileText } from 'lucide-react';
 
 interface Publication {
