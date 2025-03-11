@@ -24,7 +24,7 @@ const ContactSection: React.FC = () => {
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-medium text-gray-900">Email</h3>
-                  <p className="mt-1 text-gray-600">contact@mahmoudmohamed.com</p>
+                  <p className="mt-1 text-gray-600">m97_hassan@yahoo.com</p>
                 </div>
               </div>
               
@@ -44,7 +44,7 @@ const ContactSection: React.FC = () => {
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-medium text-gray-900">Location</h3>
-                  <p className="mt-1 text-gray-600">Jeddah, Saudi Arabia</p>
+                  <p className="mt-1 text-gray-600">Egypt</p>
                 </div>
               </div>
             </div>
