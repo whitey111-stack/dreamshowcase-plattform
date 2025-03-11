@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Section from '../ui/Section';
 import { Card } from '../ui/card';
@@ -56,7 +55,7 @@ const projects: Project[] = [
     id: 5,
     title: "Arabic NLP Processing Framework",
     description: "Developed a natural language processing framework specifically designed for Arabic text analysis and classification.",
-    image: "https://images.unsplash.com/photo-1519834022362-8c9ed33f1336?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXJhYmljfGVufDB8fDB8fHww",
+    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXJhYmljfGVufDB8fDB8fHww",
     tags: ["Python", "NLP", "Machine Learning", "Arabic", "Text Analysis"],
     link: "#",
     category: 'research'
