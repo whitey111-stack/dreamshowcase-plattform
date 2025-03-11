@@ -70,6 +70,7 @@ const skillCategories: SkillCategory[] = [
 const certifications = [
   "Certified in Cybersecurity by ISC2",
   "Certified Information Security Manager (CISM)",
+  "Project Management Professional (PMP)",
   "Certified Ethical Hacker (CEH)",
   "ISO 27001 Senior Lead Implementer",
   "Natural Language Processing (King Abdul Aziz University, 2023)",
