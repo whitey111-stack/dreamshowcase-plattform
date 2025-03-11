@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Section from '../ui/Section';
-import Card from '../ui/Card';
+import Card from '../ui/card';
 import { BookOpen, BriefcaseBusiness, Code, Shield } from 'lucide-react';
 
 const About: React.FC = () => {
@@ -16,7 +16,7 @@ const About: React.FC = () => {
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
-          <Card className="text-center p-8 animate-fade-in" style={{ '--delay': '0.1s' } as React.CSSProperties}>
+          <Card className="text-center p-8 animate-fade-in">
             <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-blue-100 mb-6">
               <Code className="h-6 w-6 text-blue-600" />
             </div>
@@ -26,7 +26,7 @@ const About: React.FC = () => {
             </p>
           </Card>
           
-          <Card className="text-center p-8 animate-fade-in" style={{ '--delay': '0.2s' } as React.CSSProperties}>
+          <Card className="text-center p-8 animate-fade-in">
             <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-indigo-100 mb-6">
               <Shield className="h-6 w-6 text-indigo-600" />
             </div>
@@ -36,7 +36,7 @@ const About: React.FC = () => {
             </p>
           </Card>
           
-          <Card className="text-center p-8 animate-fade-in" style={{ '--delay': '0.3s' } as React.CSSProperties}>
+          <Card className="text-center p-8 animate-fade-in">
             <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-cyan-100 mb-6">
               <BriefcaseBusiness className="h-6 w-6 text-cyan-600" />
             </div>
@@ -46,7 +46,7 @@ const About: React.FC = () => {
             </p>
           </Card>
           
-          <Card className="text-center p-8 animate-fade-in" style={{ '--delay': '0.4s' } as React.CSSProperties}>
+          <Card className="text-center p-8 animate-fade-in">
             <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-green-100 mb-6">
               <BookOpen className="h-6 w-6 text-green-600" />
             </div>
